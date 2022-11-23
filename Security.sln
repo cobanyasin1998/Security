@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Security.DataProtection", "Security.DataProtection\Security.DataProtection.csproj", "{8A22B10B-3E6C-4169-A615-E8E0AB805E99}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Security.WhiteBlackList", "Security.WhiteBlackList\Security.WhiteBlackList.csproj", "{FC5B18F2-132E-432B-8D73-D3267FC1DC1A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Security.SecretProtection", "Security.SecretProtection\Security.SecretProtection.csproj", "{6D44EC1A-2D81-4D79-85E1-6D7736B87671}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Security.CorsAPI", "Security.CorsAPI\Security.CorsAPI.csproj", "{40887415-498F-4F57-BC4C-7E9BD0AE704B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Security.CorsWeb", "Security.CorsWeb\Security.CorsWeb.csproj", "{6E8E1748-4D19-49A8-94BA-96146CAB8270}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Security.XSSWeb", "Security.XSSWeb\Security.XSSWeb.csproj", "{BFA76415-3603-4FA0-9268-BB51FE16B048}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A22B10B-3E6C-4169-A615-E8E0AB805E99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A22B10B-3E6C-4169-A615-E8E0AB805E99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A22B10B-3E6C-4169-A615-E8E0AB805E99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A22B10B-3E6C-4169-A615-E8E0AB805E99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC5B18F2-132E-432B-8D73-D3267FC1DC1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC5B18F2-132E-432B-8D73-D3267FC1DC1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC5B18F2-132E-432B-8D73-D3267FC1DC1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC5B18F2-132E-432B-8D73-D3267FC1DC1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D44EC1A-2D81-4D79-85E1-6D7736B87671}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D44EC1A-2D81-4D79-85E1-6D7736B87671}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D44EC1A-2D81-4D79-85E1-6D7736B87671}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D44EC1A-2D81-4D79-85E1-6D7736B87671}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40887415-498F-4F57-BC4C-7E9BD0AE704B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40887415-498F-4F57-BC4C-7E9BD0AE704B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40887415-498F-4F57-BC4C-7E9BD0AE704B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40887415-498F-4F57-BC4C-7E9BD0AE704B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E8E1748-4D19-49A8-94BA-96146CAB8270}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E8E1748-4D19-49A8-94BA-96146CAB8270}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E8E1748-4D19-49A8-94BA-96146CAB8270}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E8E1748-4D19-49A8-94BA-96146CAB8270}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFA76415-3603-4FA0-9268-BB51FE16B048}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFA76415-3603-4FA0-9268-BB51FE16B048}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFA76415-3603-4FA0-9268-BB51FE16B048}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFA76415-3603-4FA0-9268-BB51FE16B048}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {21CB367F-10EE-460B-B5D1-F937F970375C}
+	EndGlobalSection
+EndGlobal

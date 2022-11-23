@@ -1,0 +1,18 @@
+﻿<form method="post">
+
+	<input type="text" name="name" /><br />
+	<input type="text" name="comment" /><br />
+	<input type="submit" value="Yorum Gönder" /><br />
+
+</form>
+<h1>
+	<strong>@ViewBag.Name</strong><br /><hr />
+	<strong>@Html.Raw(ViewBag.Comment)</strong>
+	@if ( ViewBag.comment != null)
+	{
+		foreach (var item in ViewBag.comment as String[])
+		{
+		<span>@Html.Raw(item)</span><hr />
+		}
+	}		
+</h1>
